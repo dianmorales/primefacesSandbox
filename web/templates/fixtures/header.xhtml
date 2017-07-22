@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<ui:composition>
+    <h:form>
+    <p:menubar>
+        <p:submenu label="InputCases" icon="ui-icon-document">
+            <p:menuitem value="Autocomplete" url="/showcases/inputs/selectOneButton.xhtml"/>
+            <p:menuitem value="Boolean" url="/showcases/inputs/booleanButton.xhtml"/>
+            <p:menuitem  value="Calendar" url="/showcases/inputs/calendarButton.xhtml"/>
+            <p:menuitem value="OneMenu" url="/showcases/inputs/oneMenuButton.xhtml"/>
+            <p:menuitem value="InputText" url="/showcases/inputs/inputTextButton.xhtml"/>
+        </p:submenu>
+        <p:submenu label="Buttons">
+            <p:menuitem label="item1" url="foo">Button</p:menuitem>
+            <p:menuitem label="item2" url="bar">CommnandLink</p:menuitem>
+            <p:menuitem label="item2" url="bar">SplitButton</p:menuitem>
+            <p:menuitem label="item2" url="bar">CommandButton</p:menuitem>
+        </p:submenu>
+        <p:submenu label="Data">
+            <p:menuitem label="item1" url="foo">DataList</p:menuitem>
+            <p:menuitem label="item2" url="bar">DataTable</p:menuitem>
+        </p:submenu>
+        <p:submenu label="DragAndDrop">
+            <p:menuitem label="item1" url="foo">Draggable</p:menuitem>
+            <p:menuitem label="item2" url="bar">DataTable</p:menuitem>
+        </p:submenu>
+    </p:menubar>
+    </h:form>
+</ui:composition>
+</html>
